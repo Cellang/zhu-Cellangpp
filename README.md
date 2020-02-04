@@ -28,11 +28,10 @@ How to use one color map to graphically display many cell and molecular attribut
 # Input
 If one does not need initial inputs, in "cellarray124" simply give the first field in all cells a "0", such as:  
 
-0
+0\
 
 [0,0]=0
-
-[0,1]=0
+\r\n[0,1]=0
 
 [0,2]=0
 
