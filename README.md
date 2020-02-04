@@ -28,37 +28,37 @@ How to use one color map to graphically display many cell and molecular attribut
 # Input
 If one does not need initial inputs, in "cellarray124" simply give the first field in all cells a "0", such as:  
 
-0
-[0,0]=0
-[0,1]=0
-[0,2]=0
-[0,3]=0
-[0,4]=0
-[0,5]=0
-[0,6]=0
-[0,7]=0
-[0,8]=0
-[0,9]=0
+ 0
+ [0,0]=0
+ [0,1]=0
+ [0,2]=0
+ [0,3]=0
+ [0,4]=0
+ [0,5]=0
+ [0,6]=0
+ [0,7]=0
+ [0,8]=0
+ [0,9]=0
 
 If one wants to reset the first field (say, to be 10) in some cells at a specific time step (say, at time step 1000), then the file should contain such lines following the input lines at time step 0:  
 
-1000
-[0,0]=10
-[0,1]=10
-[0,2]=10
-[0,3]=10
-[0,4]=10
-[0,5]=10
-[0,6]=10
-[0,7]=10
-[0,8]=10
-[0,9]=10
+ 1000
+ [0,0]=10
+ [0,1]=10
+ [0,2]=10
+ [0,3]=10
+ [0,4]=10
+ [0,5]=10
+ [0,6]=10
+ [0,7]=10
+ [0,8]=10
+ [0,9]=10
 
 This provides a way to perturbate the running of a model. In the Cellang++ program one can also make such perturbation using the "if" clause and proper conditions.
 
 
 # Debugging & Bug reports 
-To run a model in debugging model, first type "ddd myexe", then in the ddd environment type "run -s 2 -f 1 -map colormap < cellarray124"
+To run a model in debugging model, first type "ddd myexe", then in the ddd environment type "run -s 2 -f 1 -map colormap < cellarray124".
 
 The system is still in development, if any bug is identified, please write to zhuhao@smu.edu.cn.
 
